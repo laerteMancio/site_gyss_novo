@@ -119,11 +119,19 @@ export default function About() {
 
           <div className="absolute inset-0 bg-green-500 blur-3xl opacity-10 rounded-full"></div>
 
-          <img
-            src="https://res.cloudinary.com/deocq6es3/video/upload/v1779992999/principal_glqhva.mp4"
-            alt="Indústria moderna"
-            className="relative rounded-3xl shadow-2xl hover:scale-[1.02] transition duration-500 border border-gray-200"
-          />
+          <video
+            className="relative rounded-3xl shadow-2xl hover:scale-[1.02] transition duration-500 border border-gray-200 w-full h-auto"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source
+              src="https://res.cloudinary.com/deocq6es3/video/upload/v1779992999/principal_glqhva.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo HTML5.
+          </video>
 
         </div>
 
