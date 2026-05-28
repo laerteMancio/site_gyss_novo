@@ -146,11 +146,32 @@ export default function Footer() {
                 08:00 às 18:00
               </p>
 
-              <button className="mt-4 bg-green-500 hover:bg-green-600 hover:scale-105 transition duration-300 px-6 py-3 rounded-2xl font-bold shadow-lg">
+              <a
+                href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                mt-4
+                bg-green-500
+                hover:bg-green-600
+                hover:scale-105
+                transition
+                duration-300
+                px-6
+                py-3
+                rounded-2xl
+                font-bold
+                shadow-lg
+                text-white
+                inline-flex
+                items-center
+                justify-center
+              "
+              >
 
                 Solicitar Orçamento
 
-              </button>
+              </a>
 
             </div>
 

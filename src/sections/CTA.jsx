@@ -38,17 +38,57 @@ export default function CTA() {
 
         <div className="flex flex-wrap justify-center gap-5">
 
-          <button className="bg-green-500 hover:bg-green-600 hover:scale-105 transition duration-300 px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl">
+          <a
+            href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+      bg-green-500
+      hover:bg-green-600
+      hover:scale-105
+      transition
+      duration-300
+      px-10
+      py-5
+      rounded-2xl
+      font-bold
+      text-lg
+      shadow-2xl
+      inline-flex
+      items-center
+      justify-center
+    "
+          >
 
             Solicitar Orçamento
 
-          </button>
+          </a>
 
-          <button className="border border-white hover:bg-white hover:text-black hover:scale-105 transition duration-300 px-10 py-5 rounded-2xl text-lg">
+          <a
+            href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+            border
+            border-white
+            hover:bg-white
+            hover:text-black
+            hover:scale-105
+            transition
+            duration-300
+            px-10
+            py-5
+            rounded-2xl
+            text-lg
+            inline-flex
+            items-center
+            justify-center
+          "
+          >
 
             Falar no WhatsApp
 
-          </button>
+          </a>
 
         </div>
 

@@ -56,17 +56,58 @@ export default function About() {
 
           <div className="flex flex-wrap gap-4">
 
-            <button className="bg-green-500 hover:bg-green-600 hover:scale-105 transition duration-300 text-white px-8 py-4 rounded-2xl font-bold shadow-lg">
+            <a
+              href="https://wa.me/5511999999999"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      bg-green-500
+      hover:bg-green-600
+      hover:scale-105
+      transition
+      duration-300
+      text-white
+      px-8
+      py-4
+      rounded-2xl
+      font-bold
+      shadow-lg
+      inline-flex
+      items-center
+      justify-center
+    "
+            >
 
               Solicitar Orçamento
 
-            </button>
+            </a>
 
-            <button className="border border-gray-300 hover:bg-black hover:text-white hover:border-black transition duration-300 px-8 py-4 rounded-2xl font-medium">
+            <a
+              href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+              border
+              border-gray-300
+              hover:bg-black
+              hover:text-white
+              hover:border-black
+              hover:scale-105
+              transition
+              duration-300
+              px-8
+              py-4
+              rounded-2xl
+              font-medium
+              inline-flex
+              items-center
+              justify-center
+            "
+            >
 
               Falar com Especialista
 
-            </button>
+            </a>
 
           </div>
 

@@ -41,13 +41,13 @@ export default function Products() {
                   src={product.image}
                   alt={product.title}
                   className="
-      max-h-full
-      max-w-full
-      object-contain
-      group-hover:scale-105
-      transition
-      duration-500
-    "
+                  max-h-full
+                  max-w-full
+                  object-contain
+                  group-hover:scale-105
+                  transition
+                  duration-500
+                "
                 />
 
               </div>
@@ -66,15 +66,34 @@ export default function Products() {
                   {product.description}
                 </p>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex">
 
-                  <button className="bg-green-500 hover:bg-green-600 transition text-white px-6 py-4 rounded-2xl font-bold">
+                  <a
+                    href={`https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20sobre%20${product.title}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                    w-full
+                    bg-green-500
+                    hover:bg-green-600
+                    hover:scale-[1.02]
+                    transition
+                    duration-300
+                    text-white
+                    px-6
+                    py-4
+                    rounded-2xl
+                    font-bold
+                    shadow-lg
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                  >
+
                     Solicitar Orçamento
-                  </button>
 
-                  <button className="border border-gray-300 hover:bg-black hover:text-white transition px-6 py-4 rounded-2xl">
-                    Ver Detalhes
-                  </button>
+                  </a>
 
                 </div>
 

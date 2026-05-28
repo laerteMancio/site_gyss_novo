@@ -35,17 +35,55 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 mb-10">
 
-            <button className="bg-green-500 hover:bg-green-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-2xl font-bold text-lg shadow-lg">
+            <a
+              href="https://wa.me/5511999999999"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+              bg-green-500
+              hover:bg-green-600
+              hover:scale-105
+              transition
+              duration-300
+              px-8
+              py-4
+              rounded-2xl
+              font-bold
+              text-lg
+              shadow-lg
+              inline-flex
+              items-center
+              justify-center
+            "
+            >
 
               Solicitar Orçamento
 
-            </button>
+            </a>
 
-            <button className="border border-white hover:bg-white hover:text-black hover:scale-105 transition duration-300 px-8 py-4 rounded-2xl text-lg">
+            <a
+              href="#products"
+              className="
+              border
+              border-white
+              hover:bg-white
+              hover:text-black
+              hover:scale-105
+              transition
+              duration-300
+              px-8
+              py-4
+              rounded-2xl
+              text-lg
+              inline-flex
+              items-center
+              justify-center
+            "
+            >
 
               Ver Produtos
 
-            </button>
+            </a>
 
           </div>
 
