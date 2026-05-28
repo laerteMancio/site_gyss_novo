@@ -113,18 +113,18 @@ export default function About() {
 
         </div>
 
-        {/* VIDEO */}
-        
+        {/* IMAGEM */}
+
         <div className="relative">
 
           <div className="absolute inset-0 bg-green-500 blur-3xl opacity-10 rounded-full"></div>
 
           <video
-            className="relative rounded-3xl shadow-2xl border border-gray-200 w-full h-auto"
-            controls
-            preload="metadata"
+            className="relative rounded-3xl shadow-2xl hover:scale-[1.02] transition duration-500 border border-gray-200 w-full h-auto"
+            autoPlay
+            muted
+            loop
             playsInline
-            poster="https://res.cloudinary.com/deocq6es3/image/upload/v1779992999/poster_about.jpg"
           >
             <source
               src="https://res.cloudinary.com/deocq6es3/video/upload/v1779992999/principal_glqhva.mp4"
