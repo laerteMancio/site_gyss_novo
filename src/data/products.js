@@ -17,7 +17,7 @@ const products = [
     id: 3,
     title: "Codificador Laser",
     description: "Excelente custo-benefício.",
-    image: "https://res.cloudinary.com/deocq6es3/image/upload/v1779992637/co2_rd3klz.jpg"
+    image: "https://res.cloudinary.com/deocq6es3/image/upload/v1779992845/fibra_olqurl.png"
   }
 ]
 
