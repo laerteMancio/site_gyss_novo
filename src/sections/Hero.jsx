@@ -79,7 +79,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-green-500 blur-3xl opacity-20 rounded-full"></div>
 
           <img
-            src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop"
+            src="https://res.cloudinary.com/deocq6es3/image/upload/v1779978098/53501_vsl9e9.jpg"
             alt="Equipamento Industrial"
             className="relative rounded-3xl shadow-2xl border border-gray-800 hover:scale-[1.02] transition duration-500"
           />
