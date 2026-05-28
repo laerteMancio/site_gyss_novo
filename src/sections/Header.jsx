@@ -43,13 +43,25 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-4">
 
-          <button className="border border-white px-5 py-3 rounded-xl hover:bg-white hover:text-black transition">
-            Catálogo
-          </button>
 
-          <button className="bg-green-500 hover:bg-green-600 transition px-5 py-3 rounded-xl font-bold">
+
+          <a
+            href="https://wa.me/5511999999999"
+            className="bg-green-500 hover:bg-green-600 transition px-5 py-3 rounded-xl font-bold"
+          >
+
             WhatsApp
-          </button>
+
+          </a>
+
+          <a
+            href="#products"
+            className="border border-white px-5 py-3 rounded-xl hover:bg-white hover:text-black transition"
+          >
+
+            Catálogo
+
+          </a>
 
         </div>
 
