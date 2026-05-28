@@ -120,7 +120,7 @@ export default function About() {
           <div className="absolute inset-0 bg-green-500 blur-3xl opacity-10 rounded-full"></div>
 
           <img
-            src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=1200&auto=format&fit=crop"
+            src="https://res.cloudinary.com/deocq6es3/video/upload/v1779992999/principal_glqhva.mp4"
             alt="Indústria moderna"
             className="relative rounded-3xl shadow-2xl hover:scale-[1.02] transition duration-500 border border-gray-200"
           />
