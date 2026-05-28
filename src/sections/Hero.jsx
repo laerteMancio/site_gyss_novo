@@ -80,7 +80,7 @@ export default function Hero() {
 
           <img
             src="https://res.cloudinary.com/deocq6es3/image/upload/v1779978098/53501_vsl9e9.jpg"
-            alt="Equipamento Industrial"
+            alt="Equipamento Industrial."
             className="relative rounded-3xl shadow-2xl border border-gray-800 hover:scale-[1.02] transition duration-500"
           />
 
